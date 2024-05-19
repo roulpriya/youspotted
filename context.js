@@ -1,42 +1,42 @@
 module.exports = {
-    firstName: 'Amitosh',
-    lastName: 'Swain Mahapatra',
-    title: 'Computer Whisperer',
-    role: '<T> Engineer',
-    company: 'Toplyne',
-    location: 'Bangalore, India',
-    email: 'amitosh@recrsn.com',
+    firstName: 'Priyambada',
+    lastName: 'Roul',
+    title: 'Backend Developer',
+    role: 'Software Engineer',
+    company: 'Baton Systems',
+    location: 'Chennai, India',
+    email: 'priyaroul99@gmail.com',
 
     links: [
         {
             name: 'twitter',
-            url: 'https://twitter.com/recrsn',
+            url: 'https://x.com/tarantism_priya',
             label: 'Follow on Twitter'
         },
         {
             name: 'linkedin',
-            url: 'https://www.linkedin.com/in/amitosh-swain/',
+            url: 'https://www.linkedin.com/in/priyambadaroul/',
             label: 'Connect on LinkedIn'
         },
         {
             name: 'github',
-            url: 'https://github.com/recrsn',
+            url: 'https://github.com/roulpriya',
             label: 'View GitHub'
         },
         {
             name: 'medium',
-            url: 'https://amitosh.medium.com',
+            url: 'https://medium.com/@priyaroul99',
             label: 'Check out Medium'
         },
         {
-            name: 'newsletter',
-            url: 'https://recursivefunction.blog',
-            label: 'Read my newsletter'
+            name: 'resume',
+            url: 'assets/Priyambada_Roul_Resume.pdf',
+            label: 'Download Resume'
         },
     ],
     tracking: {
         // If you want to add Google Analytics, just add the tracking ID here
-        googleAnalytics: 'G-8937NR279Q',
+        // googleAnalytics: 'G-8937NR279Q',
     },
     production: process.env.NODE_ENV === 'production',
 }
